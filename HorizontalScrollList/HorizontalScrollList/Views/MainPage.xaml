@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:HorizontalScrollList"
+             x:Class="HorizontalScrollList.MainPage">
+    <ContentPage.Content>
+        <StackLayout Spacing="0"
+                     BackgroundColor="White"
+                     Orientation="Vertical"
+                     HorizontalOptions="Start"
+                     Padding="10">
+            <ScrollView x:Name="verticalScrollView">
+                <StackLayout>
+                    <ScrollView x:Name="horizontalScrollView" 
+                        Orientation="Horizontal" 
+                        HorizontalOptions="FillAndExpand">
+                        <StackLayout Orientation="Horizontal">
+                            <Grid  x:Name="gridList" >
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="50" />
+                                </Grid.ColumnDefinitions>
+                            </Grid>
+                        </StackLayout>
+                    </ScrollView>
+                    <Entry Placeholder="Name"
+                           Text="{Binding Item.ItemName, Mode=TwoWay}" />
+                    <Entry Placeholder="Detail"
+                           Text="{Binding Item.ItemDetail, Mode=TwoWay}" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                    <Label Text="LOREM" TextColor="Black" />
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
